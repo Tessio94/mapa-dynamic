@@ -1,6 +1,6 @@
 body {
 	font-family: "Open Sans", sans-serif;
-	overflow-y: hidden;
+	/* overflow-y: hidden; */
 	height: 100%;
 }
 
@@ -157,6 +157,11 @@ a.back.virtual span {
 #map-container a.fleximap-point.fleximap-notdefault-100 {
 	display: none;
 }
+
+/* #map-container a.fleximap-point.fleximap-notdefault-6 img {
+	position: relative;
+	z-index: 100;
+} */
 
 .fleximap-data {
 	padding: 15px;
