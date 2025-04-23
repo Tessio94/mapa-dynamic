@@ -163,6 +163,13 @@ a.back.virtual span {
 	pointer-events: none;
 }
 
+#map-container a#cement,
+#map-container a#rasuti_teret,
+#map-container a#tekući_teret {
+	/* z-index: 100; */
+	pointer-events: all;
+}
+
 .fleximap-data {
 	padding: 15px;
 	background-color: #f4f4f4;
