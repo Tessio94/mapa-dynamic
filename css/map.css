@@ -158,10 +158,10 @@ a.back.virtual span {
 	display: none;
 }
 
-/* #map-container a.fleximap-point.fleximap-notdefault-6 img {
-	position: relative;
-	z-index: 100;
-} */
+#map-container a.fleximap-point.fleximap-notdefault-6,
+#map-container a.fleximap-point.fleximap-notdefault-11 {
+	pointer-events: none;
+}
 
 .fleximap-data {
 	padding: 15px;
