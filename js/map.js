@@ -253,6 +253,7 @@
 				if ($this.data("posx") != 0 && $this.data("posy") != 0) {
 					var $Image = $this.children("img");
 					var ImageWidth = $Image.prop("naturalWidth");
+
 					var ImageHeight = $Image.prop("naturalHeight");
 
 					if (
@@ -262,6 +263,9 @@
 						ImageWidth = ImageWidth * Factor * VezFactor;
 						ImageHeight = ImageHeight * Factor * VezFactor;
 					} else if ($this.hasClass("fleximap-notdefault-6")) {
+						ImageWidth = ImageWidth * Factor * CrtaFactor;
+						ImageHeight = ImageHeight * Factor * CrtaFactor;
+					} else if ($this.hasClass("fleximap-notdefault-11")) {
 						ImageWidth = ImageWidth * Factor * CrtaFactor;
 						ImageHeight = ImageHeight * Factor * CrtaFactor;
 					} else {
